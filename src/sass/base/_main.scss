@@ -1,0 +1,58 @@
+.mainp{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0px;
+    align-items: center;
+}
+
+.maint > h1{
+    font-size: 47.78px;
+    font-weight: 500;
+    color: #E6373D;
+}
+
+.maint{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 50%;
+}
+
+
+.mainimage{
+    width: 456px;
+    height: 400px;
+    background-image: url(../../assets/main.jpg);
+    background-size: cover;
+    border-radius: 32px;
+    background-position: center;
+}
+
+.maintext{
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.clink{
+    cursor: pointer;
+    width: fit-content;
+    padding: 16px;
+    border-radius: 8px;
+    border: solid 2px #E6373D;
+    color: #E6373D;
+    font-weight: 700;
+    transition: 0.3s ease;
+}
+
+.clink:hover{
+    background-color: #E6373D;
+    border: solid 2px #E6373D;
+    color: #fff;
+}
+
+.disabled{
+    background-color: #E6373D !important;
+    border: solid 2px #E6373D !important;
+    color: #fff !important;
+}

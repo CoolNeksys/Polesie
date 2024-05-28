@@ -1,0 +1,150 @@
+.basket_pages{
+    margin: 24px 0px;
+}
+.empty{
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    margin: 208px 300px;
+    text-align: center;
+    font-size: 23.04px;
+    font-weight: 500;
+}
+
+.cartpage{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+.cart_basket{
+    border-radius: 8px;
+    width: 855px;
+    background-color: #fff;
+    justify-content: space-evenly;
+    gap: 48px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 16px;
+}
+
+.cart_basket > *{
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.cart_basket>img{
+    width: 116px;
+    height: 116px;
+}
+
+.cart_basket__count{
+    display: flex;
+}
+
+.cart_basket__count{
+    width: 95px;
+}
+
+.cart_basket__count > input{
+    cursor: pointer;
+    padding: 0px 8px;
+    font-size: 16px;
+    background-color: transparent;
+    border: none;
+    font-weight: 500;
+    opacity: 0.5;
+    transition: 0.3s ease;
+}
+
+.cart_basket__count > p{
+    width: 95px;
+}
+
+.cart_basket__count > input:hover{
+    opacity: 1;
+}
+
+.delbtn{
+    width: 48px;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: 0.3s ease;
+    padding-right: 32px;
+}
+
+.delbtn:hover{
+    opacity: 1;
+}
+
+.cart_basket > h3{
+    width: 180px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.cart_basket > h3:last-of-type{
+    width: 80px;
+}
+
+.totals{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.t > span{
+    font-weight: 500;
+}
+
+.totals > h1{
+    font-weight: 300;
+    font-size: 33.18px;
+}
+
+.totals > .ttext{
+    border-top: dashed 2px #000;
+    font-size: 23.04px;
+    font-weight: 300;
+    padding-top: 16px;
+}
+
+.ttext span{
+    font-weight: 500;
+}
+
+.ordr{
+    cursor: pointer;
+    padding: 16px;
+    border-radius: 8px;
+    border: solid 2px #E6373D;
+    color: #E6373D;
+    font-weight: 700;
+    transition: 0.3s ease;
+    background-color: transparent;
+}
+
+.ordr:hover{
+    background-color: #E6373D;
+    color: #fff;
+}
+
+
+.dtext{
+    display: inline;
+}
+
+.checking{
+    display: inline-block;
+}
+
+.opt{
+    display: flex;
+    gap: 8px;
+}
+
+.creds{
+    font-weight: 300;
+}

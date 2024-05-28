@@ -1,0 +1,48 @@
+.footer{ 
+    display: flex;
+    justify-content: space-between;
+    height: 120px;
+    opacity: 0.7;
+}
+
+.fcont{
+    align-items: center;
+    display: flex;
+}
+
+.footer > .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fcont li{
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+
+.ftitle{
+    display: inline;
+    font-size: 16px;
+    margin-top: 37px;
+    text-align: center;
+};
+
+
+.imgs{
+    margin-top: 30px;
+}
+
+
+.imgs > * {
+    display: inline;
+    width: 32px;
+    height: 32px;
+    margin-left: 10px;
+}
+
+.imgs > a > img{
+    display: inline;
+    width: 32px;
+    height: 32px;
+    margin-left: 10px;
+}

@@ -1,0 +1,109 @@
+.historypage{
+    margin-top: 29px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.historypage h1{
+    font-size: 33.18px;
+    font-weight: 500;
+}
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 30%;
+    text-align: left;
+}
+
+.profile > h3 > span {
+    font-weight: 500;
+}
+
+.profile > p{
+    font-weight: 300;
+}
+
+.profile > p > span {
+    font-weight: 500;
+}
+
+.profile > img{
+    width: 96px;
+    height: 96px;
+    border-radius: 96px;
+}
+
+.profile > h3{
+    font-weight: 300;
+    font-size: 16px;
+}
+
+
+.graphic{
+    width: 70%;
+    display: inline;
+}
+
+.graphic > h1{
+    margin-bottom: 24px;
+}
+
+.stat__graph{
+    margin-bottom: 20px;
+}
+
+.divStat > * {
+    margin-right: 16px;
+    display: inline;
+    font-size: 16px;
+}
+
+
+.itemh{
+    display: flex;
+    background-color: #fff;
+    padding: 24px;
+    align-items: center;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    justify-content: space-between;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.itemh > *{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.pdiv > *{
+    height: 24px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.pdiv > * > span{
+    cursor: pointer;
+    font-weight: 500;
+    border-bottom: solid 1px #c6c5c5;
+}
+
+.pi{
+    width: 185px;
+    border: none;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 16px;
+    background-color: transparent;
+    border-bottom: 1px solid #e5e5e5;
+}
+.pb{
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 8px;
+    border: none;
+}
